@@ -19,7 +19,7 @@ class GetWeatherModel {
 
     GetWeatherModel(String city) {
         String BASE_URL = "http://api.openweathermap.org/data/2.5/forecast?q=";
-        String APIKEY = "&appid=5caf295bc4c09af3c6719fcb103d2ef9";
+        String APIKEY = "&appid=<api_key>";
         query = BASE_URL + city + APIKEY;
     }
 
